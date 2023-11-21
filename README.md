@@ -1,3 +1,3 @@
 ## Node.js ignite 01
 
-Primeiro desafio da trilha Node.js da ignite
+First challenge of the ignite Node.js trail
