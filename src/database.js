@@ -43,6 +43,13 @@ export class Database {
         return data
     }
 
+    isIdValid(table, id) {
+        const rowIndex = this.#database[table].findIndex(row => row.id == id)
+        if (rowIndex > -1) {
+            return true
+        }
+    }
+
     delete(table, id) {
         const rowIndex = this.#database[table].findIndex(row => row.id == id)
         if (rowIndex > -1) {
