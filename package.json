@@ -1,0 +1,14 @@
+{
+  "name": "challenge-ignite-node-01",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "First challenge of the ignite Node.js trail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
